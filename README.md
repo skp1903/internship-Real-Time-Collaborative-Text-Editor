@@ -61,6 +61,4 @@ Step 5: Deploy the App to GitHub Codespaces and Get a Forwarded Address
 
 Once the development was complete, the next step was to deploy the application to GitHub Codespaces, which provides a remote development environment. This enabled the app to run in an isolated cloud environment and made it accessible to others via a public URL:
 
-    Live App URL:
-
-    Live App
+    Live App URL: https://laughing-tribble-977665jvjr6fp7rj-3000.app.github.dev/
