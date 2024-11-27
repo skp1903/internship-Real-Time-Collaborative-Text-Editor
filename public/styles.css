@@ -1,0 +1,22 @@
+/* Ensure no horizontal scroll and proper layout */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+#editor {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto; /* Allow vertical scrolling */
+    padding: 10px; /* Add padding for a better look */
+}
+
+/* Additional styling to adjust the editor's content and focus */
+.ql-container {
+    font-family: Arial, sans-serif; /* Set a clean font */
+    font-size: 16px; /* Adjust font size */
+    padding: 10px; /* Padding for content inside the editor */
+    box-sizing: border-box;
+}
